@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Exercício 3</title>
+    </head>
+    <body>
+        <script>
+            function temHabilidade(skills){
+                var resultado = false;
+                for(i = 0; i < skills.length; i++){
+                    if(skills[i] == 'Javascript') resultado = true;
+                }
+                console.log(resultado);
+            }
+            var skills = ["Javascript", "ReactJS", "React Native"];
+            temHabilidade(skills); // true ou false
+
+        </script>
+    </body>
+</html>
